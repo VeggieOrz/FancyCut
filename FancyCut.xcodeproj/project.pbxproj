@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D33C338E4FD9C6C34E70200 /* Pods_FancyCut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CCCF0F09A8E6D41EAC8FBE /* Pods_FancyCut.framework */; };
+		2B0CFBA92908317C00FE6A92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBA82908317C00FE6A92 /* AppDelegate.m */; };
+		2B0CFBAF2908317C00FE6A92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBAE2908317C00FE6A92 /* ViewController.m */; };
+		2B0CFBB42908317E00FE6A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0CFBB32908317E00FE6A92 /* Assets.xcassets */; };
+		2B0CFBB72908317E00FE6A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0CFBB52908317E00FE6A92 /* LaunchScreen.storyboard */; };
+		2B0CFBBA2908317E00FE6A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBB92908317E00FE6A92 /* main.m */; };
+		2B0CFBC42908317E00FE6A92 /* FancyCutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBC32908317E00FE6A92 /* FancyCutTests.m */; };
+		2B0CFBCE2908317E00FE6A92 /* FancyCutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBCD2908317E00FE6A92 /* FancyCutUITests.m */; };
+		2B0CFBD02908317E00FE6A92 /* FancyCutUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBCF2908317E00FE6A92 /* FancyCutUITestsLaunchTests.m */; };
+		617EB67295D24F649EA6A158 /* Pods_FancyCut_FancyCutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D138E5E5A3D3A4D9D1B08F1 /* Pods_FancyCut_FancyCutUITests.framework */; };
+		96ECBADCF6EA36C371924FA1 /* Pods_FancyCutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7148981429275C34EC818F2 /* Pods_FancyCutTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B0CFBC02908317E00FE6A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B0CFB9C2908317C00FE6A92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0CFBA32908317C00FE6A92;
+			remoteInfo = FancyCut;
+		};
+		2B0CFBCA2908317E00FE6A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B0CFB9C2908317C00FE6A92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0CFBA32908317C00FE6A92;
+			remoteInfo = FancyCut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CCCF0F09A8E6D41EAC8FBE /* Pods_FancyCut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyCut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D138E5E5A3D3A4D9D1B08F1 /* Pods_FancyCut_FancyCutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyCut_FancyCutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0CFBA42908317C00FE6A92 /* FancyCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0CFBA72908317C00FE6A92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B0CFBA82908317C00FE6A92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B0CFBAD2908317C00FE6A92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B0CFBAE2908317C00FE6A92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B0CFBB32908317E00FE6A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B0CFBB62908317E00FE6A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B0CFBB82908317E00FE6A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0CFBB92908317E00FE6A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B0CFBBF2908317E00FE6A92 /* FancyCutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyCutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0CFBC32908317E00FE6A92 /* FancyCutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyCutTests.m; sourceTree = "<group>"; };
+		2B0CFBC92908317E00FE6A92 /* FancyCutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyCutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0CFBCD2908317E00FE6A92 /* FancyCutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyCutUITests.m; sourceTree = "<group>"; };
+		2B0CFBCF2908317E00FE6A92 /* FancyCutUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyCutUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A19AF898A84C93A4331CCF23 /* Pods-FancyCut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCut.release.xcconfig"; path = "Target Support Files/Pods-FancyCut/Pods-FancyCut.release.xcconfig"; sourceTree = "<group>"; };
+		A282CA47EBCC50CB8131EB2E /* Pods-FancyCut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCut.debug.xcconfig"; path = "Target Support Files/Pods-FancyCut/Pods-FancyCut.debug.xcconfig"; sourceTree = "<group>"; };
+		B53A4B450B72B3F01360EF9A /* Pods-FancyCutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCutTests.debug.xcconfig"; path = "Target Support Files/Pods-FancyCutTests/Pods-FancyCutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A93A19C310146083DEF3B4 /* Pods-FancyCut-FancyCutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCut-FancyCutUITests.release.xcconfig"; path = "Target Support Files/Pods-FancyCut-FancyCutUITests/Pods-FancyCut-FancyCutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7148981429275C34EC818F2 /* Pods_FancyCutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyCutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C446A6E151D3D249C1DF1EA6 /* Pods-FancyCutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCutTests.release.xcconfig"; path = "Target Support Files/Pods-FancyCutTests/Pods-FancyCutTests.release.xcconfig"; sourceTree = "<group>"; };
+		EDB1E00464D9EFFD3B9304D0 /* Pods-FancyCut-FancyCutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCut-FancyCutUITests.debug.xcconfig"; path = "Target Support Files/Pods-FancyCut-FancyCutUITests/Pods-FancyCut-FancyCutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0CFBA12908317C00FE6A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D33C338E4FD9C6C34E70200 /* Pods_FancyCut.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0CFBBC2908317E00FE6A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ECBADCF6EA36C371924FA1 /* Pods_FancyCutTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0CFBC62908317E00FE6A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617EB67295D24F649EA6A158 /* Pods_FancyCut_FancyCutUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0CFB9B2908317C00FE6A92 = {
+			isa = PBXGroup;
+			children = (
+				2B0CFBA62908317C00FE6A92 /* FancyCut */,
+				2B0CFBC22908317E00FE6A92 /* FancyCutTests */,
+				2B0CFBCC2908317E00FE6A92 /* FancyCutUITests */,
+				2B0CFBA52908317C00FE6A92 /* Products */,
+				E522B47956920699ED1563B2 /* Pods */,
+				67EEE8151BE48508252270B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0CFBA52908317C00FE6A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0CFBA42908317C00FE6A92 /* FancyCut.app */,
+				2B0CFBBF2908317E00FE6A92 /* FancyCutTests.xctest */,
+				2B0CFBC92908317E00FE6A92 /* FancyCutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0CFBA62908317C00FE6A92 /* FancyCut */ = {
+			isa = PBXGroup;
+			children = (
+				2B0CFBA72908317C00FE6A92 /* AppDelegate.h */,
+				2B0CFBA82908317C00FE6A92 /* AppDelegate.m */,
+				2B0CFBAD2908317C00FE6A92 /* ViewController.h */,
+				2B0CFBAE2908317C00FE6A92 /* ViewController.m */,
+				2B0CFBB32908317E00FE6A92 /* Assets.xcassets */,
+				2B0CFBB52908317E00FE6A92 /* LaunchScreen.storyboard */,
+				2B0CFBB82908317E00FE6A92 /* Info.plist */,
+				2B0CFBB92908317E00FE6A92 /* main.m */,
+			);
+			path = FancyCut;
+			sourceTree = "<group>";
+		};
+		2B0CFBC22908317E00FE6A92 /* FancyCutTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0CFBC32908317E00FE6A92 /* FancyCutTests.m */,
+			);
+			path = FancyCutTests;
+			sourceTree = "<group>";
+		};
+		2B0CFBCC2908317E00FE6A92 /* FancyCutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0CFBCD2908317E00FE6A92 /* FancyCutUITests.m */,
+				2B0CFBCF2908317E00FE6A92 /* FancyCutUITestsLaunchTests.m */,
+			);
+			path = FancyCutUITests;
+			sourceTree = "<group>";
+		};
+		67EEE8151BE48508252270B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07CCCF0F09A8E6D41EAC8FBE /* Pods_FancyCut.framework */,
+				0D138E5E5A3D3A4D9D1B08F1 /* Pods_FancyCut_FancyCutUITests.framework */,
+				B7148981429275C34EC818F2 /* Pods_FancyCutTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E522B47956920699ED1563B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A282CA47EBCC50CB8131EB2E /* Pods-FancyCut.debug.xcconfig */,
+				A19AF898A84C93A4331CCF23 /* Pods-FancyCut.release.xcconfig */,
+				EDB1E00464D9EFFD3B9304D0 /* Pods-FancyCut-FancyCutUITests.debug.xcconfig */,
+				B6A93A19C310146083DEF3B4 /* Pods-FancyCut-FancyCutUITests.release.xcconfig */,
+				B53A4B450B72B3F01360EF9A /* Pods-FancyCutTests.debug.xcconfig */,
+				C446A6E151D3D249C1DF1EA6 /* Pods-FancyCutTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0CFBA32908317C00FE6A92 /* FancyCut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0CFBD32908317E00FE6A92 /* Build configuration list for PBXNativeTarget "FancyCut" */;
+			buildPhases = (
+				7C730D0E51492F8B46869D5F /* [CP] Check Pods Manifest.lock */,
+				2B0CFBA02908317C00FE6A92 /* Sources */,
+				2B0CFBA12908317C00FE6A92 /* Frameworks */,
+				2B0CFBA22908317C00FE6A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyCut;
+			productName = FancyCut;
+			productReference = 2B0CFBA42908317C00FE6A92 /* FancyCut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B0CFBBE2908317E00FE6A92 /* FancyCutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0CFBD62908317E00FE6A92 /* Build configuration list for PBXNativeTarget "FancyCutTests" */;
+			buildPhases = (
+				84BB0D25E699CAC8EC33F0A0 /* [CP] Check Pods Manifest.lock */,
+				2B0CFBBB2908317E00FE6A92 /* Sources */,
+				2B0CFBBC2908317E00FE6A92 /* Frameworks */,
+				2B0CFBBD2908317E00FE6A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0CFBC12908317E00FE6A92 /* PBXTargetDependency */,
+			);
+			name = FancyCutTests;
+			productName = FancyCutTests;
+			productReference = 2B0CFBBF2908317E00FE6A92 /* FancyCutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B0CFBC82908317E00FE6A92 /* FancyCutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0CFBD92908317E00FE6A92 /* Build configuration list for PBXNativeTarget "FancyCutUITests" */;
+			buildPhases = (
+				5065C5B790C5B402B085A07E /* [CP] Check Pods Manifest.lock */,
+				2B0CFBC52908317E00FE6A92 /* Sources */,
+				2B0CFBC62908317E00FE6A92 /* Frameworks */,
+				2B0CFBC72908317E00FE6A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0CFBCB2908317E00FE6A92 /* PBXTargetDependency */,
+			);
+			name = FancyCutUITests;
+			productName = FancyCutUITests;
+			productReference = 2B0CFBC92908317E00FE6A92 /* FancyCutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B0CFB9C2908317C00FE6A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2B0CFBA32908317C00FE6A92 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2B0CFBBE2908317E00FE6A92 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2B0CFBA32908317C00FE6A92;
+					};
+					2B0CFBC82908317E00FE6A92 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2B0CFBA32908317C00FE6A92;
+					};
+				};
+			};
+			buildConfigurationList = 2B0CFB9F2908317C00FE6A92 /* Build configuration list for PBXProject "FancyCut" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B0CFB9B2908317C00FE6A92;
+			productRefGroup = 2B0CFBA52908317C00FE6A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0CFBA32908317C00FE6A92 /* FancyCut */,
+				2B0CFBBE2908317E00FE6A92 /* FancyCutTests */,
+				2B0CFBC82908317E00FE6A92 /* FancyCutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B0CFBA22908317C00FE6A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0CFBB72908317E00FE6A92 /* LaunchScreen.storyboard in Resources */,
+				2B0CFBB42908317E00FE6A92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0CFBBD2908317E00FE6A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0CFBC72908317E00FE6A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5065C5B790C5B402B085A07E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FancyCut-FancyCutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C730D0E51492F8B46869D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FancyCut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84BB0D25E699CAC8EC33F0A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FancyCutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0CFBA02908317C00FE6A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0CFBAF2908317C00FE6A92 /* ViewController.m in Sources */,
+				2B0CFBA92908317C00FE6A92 /* AppDelegate.m in Sources */,
+				2B0CFBBA2908317E00FE6A92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0CFBBB2908317E00FE6A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0CFBC42908317E00FE6A92 /* FancyCutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0CFBC52908317E00FE6A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0CFBCE2908317E00FE6A92 /* FancyCutUITests.m in Sources */,
+				2B0CFBD02908317E00FE6A92 /* FancyCutUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B0CFBC12908317E00FE6A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B0CFBA32908317C00FE6A92 /* FancyCut */;
+			targetProxy = 2B0CFBC02908317E00FE6A92 /* PBXContainerItemProxy */;
+		};
+		2B0CFBCB2908317E00FE6A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B0CFBA32908317C00FE6A92 /* FancyCut */;
+			targetProxy = 2B0CFBCA2908317E00FE6A92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B0CFBB52908317E00FE6A92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0CFBB62908317E00FE6A92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B0CFBD12908317E00FE6A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B0CFBD22908317E00FE6A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B0CFBD42908317E00FE6A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A282CA47EBCC50CB8131EB2E /* Pods-FancyCut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C333TWLJB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FancyCut/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veggie.FancyCut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2B0CFBD52908317E00FE6A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19AF898A84C93A4331CCF23 /* Pods-FancyCut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C333TWLJB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FancyCut/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veggie.FancyCut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2B0CFBD72908317E00FE6A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53A4B450B72B3F01360EF9A /* Pods-FancyCutTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C333TWLJB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veggie.FancyCutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyCut.app/FancyCut";
+			};
+			name = Debug;
+		};
+		2B0CFBD82908317E00FE6A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C446A6E151D3D249C1DF1EA6 /* Pods-FancyCutTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C333TWLJB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veggie.FancyCutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyCut.app/FancyCut";
+			};
+			name = Release;
+		};
+		2B0CFBDA2908317E00FE6A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB1E00464D9EFFD3B9304D0 /* Pods-FancyCut-FancyCutUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C333TWLJB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veggie.FancyCutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FancyCut;
+			};
+			name = Debug;
+		};
+		2B0CFBDB2908317E00FE6A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A93A19C310146083DEF3B4 /* Pods-FancyCut-FancyCutUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C333TWLJB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veggie.FancyCutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FancyCut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0CFB9F2908317C00FE6A92 /* Build configuration list for PBXProject "FancyCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0CFBD12908317E00FE6A92 /* Debug */,
+				2B0CFBD22908317E00FE6A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0CFBD32908317E00FE6A92 /* Build configuration list for PBXNativeTarget "FancyCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0CFBD42908317E00FE6A92 /* Debug */,
+				2B0CFBD52908317E00FE6A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0CFBD62908317E00FE6A92 /* Build configuration list for PBXNativeTarget "FancyCutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0CFBD72908317E00FE6A92 /* Debug */,
+				2B0CFBD82908317E00FE6A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0CFBD92908317E00FE6A92 /* Build configuration list for PBXNativeTarget "FancyCutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0CFBDA2908317E00FE6A92 /* Debug */,
+				2B0CFBDB2908317E00FE6A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B0CFB9C2908317C00FE6A92 /* Project object */;
+}
