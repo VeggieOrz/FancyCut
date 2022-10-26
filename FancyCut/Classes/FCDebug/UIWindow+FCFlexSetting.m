@@ -12,11 +12,13 @@
 
 @implementation UIWindow (FCFlexSetting)
 
+#if DEBUG
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
     [super motionBegan:motion withEvent:event];
     if (motion == UIEventSubtypeMotionShake) {
         [[FLEXManager sharedManager] showExplorer];
     }
 }
+#endif
 
 @end
