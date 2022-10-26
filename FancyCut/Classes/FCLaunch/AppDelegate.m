@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "FCMainTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -20,10 +20,9 @@
     // 初始化 self.window
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    // 这个 ViewController 是新建的时候自带的，需要导入一下头文件
-    ViewController *vc = [[ViewController alloc] init];
+    FCMainTabBarController *tabVc = [[FCMainTabBarController alloc] init];
     // 设置根控制器并可视
-    [self.window setRootViewController:vc];
+    [self.window setRootViewController:tabVc];
     [self.window makeKeyAndVisible];
     return YES;
 }
