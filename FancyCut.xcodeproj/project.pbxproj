@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		0D33C338E4FD9C6C34E70200 /* Pods_FancyCut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CCCF0F09A8E6D41EAC8FBE /* Pods_FancyCut.framework */; };
 		2B0CFBA92908317C00FE6A92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBA82908317C00FE6A92 /* AppDelegate.m */; };
-		2B0CFBAF2908317C00FE6A92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBAE2908317C00FE6A92 /* ViewController.m */; };
 		2B0CFBB42908317E00FE6A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0CFBB32908317E00FE6A92 /* Assets.xcassets */; };
 		2B0CFBB72908317E00FE6A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0CFBB52908317E00FE6A92 /* LaunchScreen.storyboard */; };
 		2B0CFBBA2908317E00FE6A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBB92908317E00FE6A92 /* main.m */; };
 		2B0CFBC42908317E00FE6A92 /* FancyCutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBC32908317E00FE6A92 /* FancyCutTests.m */; };
 		2B0CFBCE2908317E00FE6A92 /* FancyCutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBCD2908317E00FE6A92 /* FancyCutUITests.m */; };
 		2B0CFBD02908317E00FE6A92 /* FancyCutUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CFBCF2908317E00FE6A92 /* FancyCutUITestsLaunchTests.m */; };
+		2BA3205129098CFF00DC16B2 /* FCMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3205029098CFF00DC16B2 /* FCMainTabBarController.m */; };
+		2BA3205429098E4400DC16B2 /* FCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3205329098E4400DC16B2 /* FCHomeViewController.m */; };
+		2BA3205C2909921D00DC16B2 /* FCEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3205B2909921D00DC16B2 /* FCEditViewController.m */; };
+		2BA3205F2909923100DC16B2 /* FCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3205E2909923100DC16B2 /* FCMeViewController.m */; };
+		2BA32064290993D700DC16B2 /* FCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32063290993D700DC16B2 /* FCNavigationController.m */; };
+		2BA32067290993FB00DC16B2 /* FCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32066290993FB00DC16B2 /* FCTabBarController.m */; };
+		2BA3206A2909948600DC16B2 /* FCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA320692909948600DC16B2 /* FCBaseViewController.m */; };
+		2BA320732909968800DC16B2 /* UIColor+FCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA320722909968800DC16B2 /* UIColor+FCColor.m */; };
+		2BA3207929099A7D00DC16B2 /* UIView+FCFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3207829099A7D00DC16B2 /* UIView+FCFrame.m */; };
+		2BA3207D29099DF300DC16B2 /* UIWindow+FCFlexSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3207C29099DF300DC16B2 /* UIWindow+FCFlexSetting.m */; };
+		2BA320922909A18600DC16B2 /* UIView+FCGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA320912909A18600DC16B2 /* UIView+FCGesture.m */; };
+		2BA320962909B21900DC16B2 /* FCSelectAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA320952909B21900DC16B2 /* FCSelectAlbumViewController.m */; };
+		2BA320992909B3E500DC16B2 /* FCSelectAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA320982909B3E500DC16B2 /* FCSelectAlbumListViewController.m */; };
 		617EB67295D24F649EA6A158 /* Pods_FancyCut_FancyCutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D138E5E5A3D3A4D9D1B08F1 /* Pods_FancyCut_FancyCutUITests.framework */; };
 		96ECBADCF6EA36C371924FA1 /* Pods_FancyCutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7148981429275C34EC818F2 /* Pods_FancyCutTests.framework */; };
 /* End PBXBuildFile section */
@@ -43,8 +55,6 @@
 		2B0CFBA42908317C00FE6A92 /* FancyCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0CFBA72908317C00FE6A92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B0CFBA82908317C00FE6A92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B0CFBAD2908317C00FE6A92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B0CFBAE2908317C00FE6A92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B0CFBB32908317E00FE6A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B0CFBB62908317E00FE6A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B0CFBB82908317E00FE6A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +64,35 @@
 		2B0CFBC92908317E00FE6A92 /* FancyCutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyCutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0CFBCD2908317E00FE6A92 /* FancyCutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyCutUITests.m; sourceTree = "<group>"; };
 		2B0CFBCF2908317E00FE6A92 /* FancyCutUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyCutUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2BA3204F29098CFF00DC16B2 /* FCMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMainTabBarController.h; sourceTree = "<group>"; };
+		2BA3205029098CFF00DC16B2 /* FCMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMainTabBarController.m; sourceTree = "<group>"; };
+		2BA3205229098E4400DC16B2 /* FCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHomeViewController.h; sourceTree = "<group>"; };
+		2BA3205329098E4400DC16B2 /* FCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHomeViewController.m; sourceTree = "<group>"; };
+		2BA3205A2909921D00DC16B2 /* FCEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEditViewController.h; sourceTree = "<group>"; };
+		2BA3205B2909921D00DC16B2 /* FCEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEditViewController.m; sourceTree = "<group>"; };
+		2BA3205D2909923100DC16B2 /* FCMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMeViewController.h; sourceTree = "<group>"; };
+		2BA3205E2909923100DC16B2 /* FCMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMeViewController.m; sourceTree = "<group>"; };
+		2BA32062290993D700DC16B2 /* FCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCNavigationController.h; sourceTree = "<group>"; };
+		2BA32063290993D700DC16B2 /* FCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCNavigationController.m; sourceTree = "<group>"; };
+		2BA32065290993FB00DC16B2 /* FCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCTabBarController.h; sourceTree = "<group>"; };
+		2BA32066290993FB00DC16B2 /* FCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCTabBarController.m; sourceTree = "<group>"; };
+		2BA320682909948600DC16B2 /* FCBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBaseViewController.h; sourceTree = "<group>"; };
+		2BA320692909948600DC16B2 /* FCBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBaseViewController.m; sourceTree = "<group>"; };
+		2BA3206C290994D800DC16B2 /* FCUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCUIKit.h; sourceTree = "<group>"; };
+		2BA320712909968800DC16B2 /* UIColor+FCColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+FCColor.h"; sourceTree = "<group>"; };
+		2BA320722909968800DC16B2 /* UIColor+FCColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FCColor.m"; sourceTree = "<group>"; };
+		2BA320752909988800DC16B2 /* FCFontMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFontMacro.h; sourceTree = "<group>"; };
+		2BA32076290998DA00DC16B2 /* FCScreenMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCScreenMacro.h; sourceTree = "<group>"; };
+		2BA3207729099A7D00DC16B2 /* UIView+FCFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FCFrame.h"; sourceTree = "<group>"; };
+		2BA3207829099A7D00DC16B2 /* UIView+FCFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FCFrame.m"; sourceTree = "<group>"; };
+		2BA3207B29099DF300DC16B2 /* UIWindow+FCFlexSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FCFlexSetting.h"; sourceTree = "<group>"; };
+		2BA3207C29099DF300DC16B2 /* UIWindow+FCFlexSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FCFlexSetting.m"; sourceTree = "<group>"; };
+		2BA320902909A18600DC16B2 /* UIView+FCGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FCGesture.h"; sourceTree = "<group>"; };
+		2BA320912909A18600DC16B2 /* UIView+FCGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FCGesture.m"; sourceTree = "<group>"; };
+		2BA320942909B21900DC16B2 /* FCSelectAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSelectAlbumViewController.h; sourceTree = "<group>"; };
+		2BA320952909B21900DC16B2 /* FCSelectAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSelectAlbumViewController.m; sourceTree = "<group>"; };
+		2BA320972909B3E500DC16B2 /* FCSelectAlbumListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSelectAlbumListViewController.h; sourceTree = "<group>"; };
+		2BA320982909B3E500DC16B2 /* FCSelectAlbumListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSelectAlbumListViewController.m; sourceTree = "<group>"; };
 		A19AF898A84C93A4331CCF23 /* Pods-FancyCut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCut.release.xcconfig"; path = "Target Support Files/Pods-FancyCut/Pods-FancyCut.release.xcconfig"; sourceTree = "<group>"; };
 		A282CA47EBCC50CB8131EB2E /* Pods-FancyCut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCut.debug.xcconfig"; path = "Target Support Files/Pods-FancyCut/Pods-FancyCut.debug.xcconfig"; sourceTree = "<group>"; };
 		B53A4B450B72B3F01360EF9A /* Pods-FancyCutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyCutTests.debug.xcconfig"; path = "Target Support Files/Pods-FancyCutTests/Pods-FancyCutTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,14 +155,9 @@
 		2B0CFBA62908317C00FE6A92 /* FancyCut */ = {
 			isa = PBXGroup;
 			children = (
-				2B0CFBA72908317C00FE6A92 /* AppDelegate.h */,
-				2B0CFBA82908317C00FE6A92 /* AppDelegate.m */,
-				2B0CFBAD2908317C00FE6A92 /* ViewController.h */,
-				2B0CFBAE2908317C00FE6A92 /* ViewController.m */,
-				2B0CFBB32908317E00FE6A92 /* Assets.xcassets */,
-				2B0CFBB52908317E00FE6A92 /* LaunchScreen.storyboard */,
+				2BA3205529098F3200DC16B2 /* Resources */,
+				2BA3204D290989F600DC16B2 /* Classes */,
 				2B0CFBB82908317E00FE6A92 /* Info.plist */,
-				2B0CFBB92908317E00FE6A92 /* main.m */,
 			);
 			path = FancyCut;
 			sourceTree = "<group>";
@@ -143,6 +177,134 @@
 				2B0CFBCF2908317E00FE6A92 /* FancyCutUITestsLaunchTests.m */,
 			);
 			path = FancyCutUITests;
+			sourceTree = "<group>";
+		};
+		2BA3204D290989F600DC16B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2BA3207A29099DD100DC16B2 /* FCDebug */,
+				2BA320602909935000DC16B2 /* FCUIKit */,
+				2BA32059290991DA00DC16B2 /* FCMe */,
+				2BA32058290991D000DC16B2 /* FCEdit */,
+				2BA32057290991BB00DC16B2 /* FCHome */,
+				2BA3204E29098A0400DC16B2 /* FCLaunch */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2BA3204E29098A0400DC16B2 /* FCLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				2B0CFBA72908317C00FE6A92 /* AppDelegate.h */,
+				2B0CFBA82908317C00FE6A92 /* AppDelegate.m */,
+				2B0CFBB92908317E00FE6A92 /* main.m */,
+				2BA3204F29098CFF00DC16B2 /* FCMainTabBarController.h */,
+				2BA3205029098CFF00DC16B2 /* FCMainTabBarController.m */,
+			);
+			path = FCLaunch;
+			sourceTree = "<group>";
+		};
+		2BA3205529098F3200DC16B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BA3205629098F5600DC16B2 /* StoryBoard */,
+				2B0CFBB32908317E00FE6A92 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2BA3205629098F5600DC16B2 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2B0CFBB52908317E00FE6A92 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		2BA32057290991BB00DC16B2 /* FCHome */ = {
+			isa = PBXGroup;
+			children = (
+				2BA3205229098E4400DC16B2 /* FCHomeViewController.h */,
+				2BA3205329098E4400DC16B2 /* FCHomeViewController.m */,
+			);
+			path = FCHome;
+			sourceTree = "<group>";
+		};
+		2BA32058290991D000DC16B2 /* FCEdit */ = {
+			isa = PBXGroup;
+			children = (
+				2BA3205A2909921D00DC16B2 /* FCEditViewController.h */,
+				2BA3205B2909921D00DC16B2 /* FCEditViewController.m */,
+				2BA320942909B21900DC16B2 /* FCSelectAlbumViewController.h */,
+				2BA320952909B21900DC16B2 /* FCSelectAlbumViewController.m */,
+				2BA320972909B3E500DC16B2 /* FCSelectAlbumListViewController.h */,
+				2BA320982909B3E500DC16B2 /* FCSelectAlbumListViewController.m */,
+			);
+			path = FCEdit;
+			sourceTree = "<group>";
+		};
+		2BA32059290991DA00DC16B2 /* FCMe */ = {
+			isa = PBXGroup;
+			children = (
+				2BA3205D2909923100DC16B2 /* FCMeViewController.h */,
+				2BA3205E2909923100DC16B2 /* FCMeViewController.m */,
+			);
+			path = FCMe;
+			sourceTree = "<group>";
+		};
+		2BA320602909935000DC16B2 /* FCUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2BA320742909986700DC16B2 /* Macros */,
+				2BA3206D2909960600DC16B2 /* Categories */,
+				2BA320612909939A00DC16B2 /* ViewControllers */,
+				2BA3206C290994D800DC16B2 /* FCUIKit.h */,
+			);
+			path = FCUIKit;
+			sourceTree = "<group>";
+		};
+		2BA320612909939A00DC16B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32062290993D700DC16B2 /* FCNavigationController.h */,
+				2BA32063290993D700DC16B2 /* FCNavigationController.m */,
+				2BA32065290993FB00DC16B2 /* FCTabBarController.h */,
+				2BA32066290993FB00DC16B2 /* FCTabBarController.m */,
+				2BA320682909948600DC16B2 /* FCBaseViewController.h */,
+				2BA320692909948600DC16B2 /* FCBaseViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2BA3206D2909960600DC16B2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2BA320712909968800DC16B2 /* UIColor+FCColor.h */,
+				2BA320722909968800DC16B2 /* UIColor+FCColor.m */,
+				2BA3207729099A7D00DC16B2 /* UIView+FCFrame.h */,
+				2BA3207829099A7D00DC16B2 /* UIView+FCFrame.m */,
+				2BA320902909A18600DC16B2 /* UIView+FCGesture.h */,
+				2BA320912909A18600DC16B2 /* UIView+FCGesture.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2BA320742909986700DC16B2 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				2BA320752909988800DC16B2 /* FCFontMacro.h */,
+				2BA32076290998DA00DC16B2 /* FCScreenMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		2BA3207A29099DD100DC16B2 /* FCDebug */ = {
+			isa = PBXGroup;
+			children = (
+				2BA3207B29099DF300DC16B2 /* UIWindow+FCFlexSetting.h */,
+				2BA3207C29099DF300DC16B2 /* UIWindow+FCFlexSetting.m */,
+			);
+			path = FCDebug;
 			sourceTree = "<group>";
 		};
 		67EEE8151BE48508252270B1 /* Frameworks */ = {
@@ -165,7 +327,6 @@
 				B53A4B450B72B3F01360EF9A /* Pods-FancyCutTests.debug.xcconfig */,
 				C446A6E151D3D249C1DF1EA6 /* Pods-FancyCutTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,6 +341,7 @@
 				2B0CFBA02908317C00FE6A92 /* Sources */,
 				2B0CFBA12908317C00FE6A92 /* Frameworks */,
 				2B0CFBA22908317C00FE6A92 /* Resources */,
+				C18EDACDC95ED58B6405B503 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +379,7 @@
 				2B0CFBC52908317E00FE6A92 /* Sources */,
 				2B0CFBC62908317E00FE6A92 /* Frameworks */,
 				2B0CFBC72908317E00FE6A92 /* Resources */,
+				BC88C99B2AD99FBBA2E586CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -363,6 +526,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BC88C99B2AD99FBBA2E586CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FancyCut-FancyCutUITests/Pods-FancyCut-FancyCutUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FancyCut-FancyCutUITests/Pods-FancyCut-FancyCutUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FancyCut-FancyCutUITests/Pods-FancyCut-FancyCutUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C18EDACDC95ED58B6405B503 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FancyCut/Pods-FancyCut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FancyCut/Pods-FancyCut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FancyCut/Pods-FancyCut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -370,9 +567,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0CFBAF2908317C00FE6A92 /* ViewController.m in Sources */,
+				2BA320922909A18600DC16B2 /* UIView+FCGesture.m in Sources */,
+				2BA32067290993FB00DC16B2 /* FCTabBarController.m in Sources */,
+				2BA3205129098CFF00DC16B2 /* FCMainTabBarController.m in Sources */,
+				2BA3207929099A7D00DC16B2 /* UIView+FCFrame.m in Sources */,
+				2BA3205F2909923100DC16B2 /* FCMeViewController.m in Sources */,
+				2BA320962909B21900DC16B2 /* FCSelectAlbumViewController.m in Sources */,
+				2BA3206A2909948600DC16B2 /* FCBaseViewController.m in Sources */,
 				2B0CFBA92908317C00FE6A92 /* AppDelegate.m in Sources */,
+				2BA320992909B3E500DC16B2 /* FCSelectAlbumListViewController.m in Sources */,
+				2BA32064290993D700DC16B2 /* FCNavigationController.m in Sources */,
+				2BA320732909968800DC16B2 /* UIColor+FCColor.m in Sources */,
 				2B0CFBBA2908317E00FE6A92 /* main.m in Sources */,
+				2BA3205429098E4400DC16B2 /* FCHomeViewController.m in Sources */,
+				2BA3207D29099DF300DC16B2 /* UIWindow+FCFlexSetting.m in Sources */,
+				2BA3205C2909921D00DC16B2 /* FCEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
