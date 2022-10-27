@@ -26,7 +26,7 @@
     self.view.backgroundColor = UIColor.greenColor;
     [self.view addSubview:self.jumpToEditView];
     [self.jumpToEditView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.height.width.mas_equalTo(FCScaleSize(100));
+        make.height.width.mas_equalTo(100);
         make.center.equalTo(self.view);
     }];
 }
